@@ -1,0 +1,130 @@
+body {
+  color: #333333;
+  font-family: arial;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 0 16px;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  border: 1px solid #eeeeee;
+}
+
+.main-content {
+  flex-grow: 1;
+}
+
+footer {
+  color: #888888;
+  border-top: 1px solid #eeeeee;
+  margin-top: 16px;
+  padding: 16px 0;
+}
+
+header {
+  margin-top: 16px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #eeeeee;
+}
+.links {
+  margin-bottom: 20px;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 64px;
+  margin-bottom: 16px;
+}
+p {
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
+header a {
+  color: #888888;
+  margin-right: 16px;
+  text-decoration: none;
+}
+
+.portrait {
+  width: 250px;
+}
+a + a {
+  border-left: 1px double #cccccc;
+  padding: 0 20px;
+}
+
+.formContent {
+  height: 400px;
+  text-align: center;
+  margin: 20px 30px;
+  padding: 10px 40px;
+}
+.dataReceived {
+  margin: 30px auto;
+}
+.dataReceived label {
+  margin-right: 20px;
+}
+.dataReceived input {
+  margin-right: 20px;
+  padding: 7px 10px;
+  width: 180px;
+  border-radius: 5px;
+}
+
+.dataReceived button {
+  display: inline-block;
+  border-radius: 2em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  background-color: #4eb5f1;
+  text-align: center;
+  transition: all 0.2s;
+  border: none;
+  padding: 8px 16px;
+  outline: none;
+  cursor: pointer;
+}
+
+.dataReceived button:hover {
+  background-color: #4095c6;
+}
+
+.dataReceived button:active {
+  transform: translateY(2px);
+}
+
+.dataShown {
+  margin: 30px auto;
+}
+
+.dataShown table {
+  margin: 0 auto;
+  background-color: rgb(105, 105, 105);
+  border-spacing: 3px;
+  border-radius: 6px;
+  width: 500px;
+}
+
+.dataShown table,
+th,
+td {
+  border: 1px solid #666666;
+}
+th,
+td {
+  padding: 15px;
+  background-color: white;
+}
+th {
+  width: 150px;
+}

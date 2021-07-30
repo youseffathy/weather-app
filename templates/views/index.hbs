@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="icon" href="/img/weather.png" />
+    <title>Weather</title>
+  </head>
+  <body>
+    <div class="main-content">
+      {{>header}}
+      <form action="" class="formContent">
+        <div class="dataReceived">
+          <label for="location" id="locationLabel">Enter location</label>
+          <input type="text" name="location" id="location" placeholder="Location" />
+          <button type="submit" id>Get Weather</button>
+        </div>
+        <div class="dataShown">
+          <table>
+            <tr>
+              <th>Location</th>
+              <td></td>
+            </tr>
+            <tr>
+              <th>Temperature</th>
+              <td></td>
+            </tr>
+            <tr>
+              <th>Feels like</th>
+              <td></td>
+            </tr>
+            <tr>
+              <th>humidity</th>
+              <td></td>
+            </tr>
+            <tr>
+              <th>Wind speed</th>
+              <td></td>
+            </tr>
+          </table>
+        </div>
+      </form>
+    </div>
+    {{>footer}}
+  </body>
+</html>
